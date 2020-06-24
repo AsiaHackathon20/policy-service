@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @Slf4j
 @RestController
 public class PolicyController {
@@ -28,9 +30,9 @@ public class PolicyController {
         return policy;
     }
 
-    @GetMapping(value = "/policy-mapping/raw-policy")
-    public String getAllPolicies() throws Exception {
-        String policy = policyApp.getRawPolicy();
+    @GetMapping(value = "/policy-mapping/all")
+    public List<Policy> getAllPolicies() throws Exception {
+        List<Policy> policy = policyApp.getAllPolicies();
         log.info("Retrieving all policies for {}", policy);
         return policy;
     }

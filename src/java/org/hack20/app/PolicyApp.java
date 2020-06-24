@@ -5,6 +5,8 @@ import org.hack20.provider.PolicyProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class PolicyApp {
 
@@ -15,7 +17,7 @@ public class PolicyApp {
         return provider.getPolicy(sid);
     }
 
-    public String getRawPolicy() throws Exception {
+    public List<Policy> getAllPolicies() throws Exception {
         return provider.getAllPolicies();
     }
 }

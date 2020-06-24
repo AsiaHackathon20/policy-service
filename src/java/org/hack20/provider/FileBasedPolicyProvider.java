@@ -44,7 +44,7 @@ public class FileBasedPolicyProvider implements PolicyProvider {
     }
 
     @Override
-    public String getAllPolicies() throws Exception {
-        return IOUtils.toString(resource.getInputStream(), StandardCharsets.UTF_8);
+    public List<Policy> getAllPolicies() throws Exception {
+        return policies;
     }
 }
