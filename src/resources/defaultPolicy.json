@@ -1,0 +1,52 @@
+[
+  {
+    "sid": "A123456",
+    "productScope": ["US Govt"],
+    "socialMediaPlatforms": ["WE_CHAT", "SYMPHONY"],
+    "jpmEnterpriseAccount": "Hari P",
+    "contacts": [{
+      "name": "Hari",
+      "clientIdentifier": "A123456",
+      "clientIdentifierType": "SID",
+      "platforms": [
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["US Govt"],
+          "enterpriseAccount": ["1", "2", "3"],
+          "personalAccount": ["1"]
+        },
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["EU Govt"],
+          "enterpriseAccount": ["11", "12", "13"],
+          "personalAccount": ["11"]
+        }
+      ]
+    }]
+  },
+  {
+    "sid": "B123456",
+    "productScope": ["US Govt"],
+    "socialMediaPlatforms": ["WE_CHAT", "SYMPHONY"],
+    "jpmEnterpriseAccount": "Anupam",
+    "contacts": [{
+      "name": "Anupam",
+      "clientIdentifier": "B123456",
+      "clientIdentifierType": "SID",
+      "platforms": [
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["US Govt"],
+          "enterpriseAccount": ["1", "2", "3"],
+          "personalAccount": ["1"]
+        },
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["EU Govt"],
+          "enterpriseAccount": ["11", "12", "13"],
+          "personalAccount": ["11"]
+        }
+      ]
+    }]
+  }
+]
