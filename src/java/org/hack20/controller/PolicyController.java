@@ -33,7 +33,7 @@ public class PolicyController {
     @GetMapping(value = "/policy-mapping/all")
     public List<Policy> getAllPolicies() throws Exception {
         List<Policy> policy = policyApp.getAllPolicies();
-        log.info("Retrieving all policies for {}", policy);
+        log.info("Retrieving all policies {}", policy);
         return policy;
     }
 }
