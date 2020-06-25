@@ -1,6 +1,6 @@
-package org.hack20.provider;
+package org.hack20.policyservice.provider;
 
-import org.hack20.domain.Policy;
+import org.hack20.policyservice.domain.Policy;
 
 import java.util.List;
 

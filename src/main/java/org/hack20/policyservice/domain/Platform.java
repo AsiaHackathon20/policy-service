@@ -1,4 +1,4 @@
-package org.hack20.domain;
+package org.hack20.policyservice.domain;
 
 import lombok.Data;
 
