@@ -1,4 +1,4 @@
-package org.hack20.config;
+package org.hack20.policyservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

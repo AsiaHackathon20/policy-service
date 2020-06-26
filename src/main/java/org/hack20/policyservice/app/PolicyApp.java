@@ -1,7 +1,7 @@
-package org.hack20.app;
+package org.hack20.policyservice.app;
 
-import org.hack20.domain.Policy;
-import org.hack20.provider.PolicyProvider;
+import org.hack20.policyservice.domain.Policy;
+import org.hack20.policyservice.provider.PolicyProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
