@@ -1,50 +1,50 @@
 [
   {
-    "sid": "A123456",
+    "sid": "F241770",
     "productScope": ["US Govt"],
     "socialMediaPlatforms": ["WE_CHAT", "SYMPHONY"],
-    "jpmEnterpriseAccount": "Hari P",
+    "jpmEnterpriseAccount": "F241770",
     "contacts": [{
       "name": "Hari",
       "clientIdentifier": "A123456",
-      "clientIdentifierType": "SID",
+      "clientIdentifierType": "SPN",
       "platforms": [
         {
           "identifier": "WE_CHAT",
           "productScope": ["US Govt"],
-          "enterpriseAccount": ["1", "2", "3"],
-          "personalAccount": ["1"]
+          "enterpriseAccount": ["E1", "E2", "E3"],
+          "personalAccount": ["HARI_PERSONAL_UNION_ID"]
         },
         {
           "identifier": "WE_CHAT",
           "productScope": ["EU Govt"],
-          "enterpriseAccount": ["11", "12", "13"],
-          "personalAccount": ["11"]
+          "enterpriseAccount": ["E4", "E5", "E6"],
+          "personalAccount": ["HARI_PERSONAL_UNION_ID"]
         }
       ]
     }]
   },
   {
-    "sid": "B123456",
+    "sid": "R316615",
     "productScope": ["US Govt"],
     "socialMediaPlatforms": ["WE_CHAT", "SYMPHONY"],
-    "jpmEnterpriseAccount": "Anupam",
+    "jpmEnterpriseAccount": "R316615",
     "contacts": [{
       "name": "Anupam",
-      "clientIdentifier": "B123456",
+      "clientIdentifier": "F241770",
       "clientIdentifierType": "SID",
       "platforms": [
         {
           "identifier": "WE_CHAT",
           "productScope": ["US Govt"],
-          "enterpriseAccount": ["1", "2", "3"],
-          "personalAccount": ["1"]
+          "enterpriseAccount": ["F241770"],
+          "personalAccount": ["ANUPAM_PERSONAL_UNION_ID"]
         },
         {
           "identifier": "WE_CHAT",
           "productScope": ["EU Govt"],
-          "enterpriseAccount": ["11", "12", "13"],
-          "personalAccount": ["11"]
+          "enterpriseAccount": ["F241770"],
+          "personalAccount": ["ANUPAM_PERSONAL_UNION_ID"]
         }
       ]
     }]
