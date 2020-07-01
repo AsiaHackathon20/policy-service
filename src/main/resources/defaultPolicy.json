@@ -48,5 +48,49 @@
         }
       ]
     }]
+  },
+  {
+    "sid": "N654179",
+    "productScope": ["US Govt"],
+    "socialMediaPlatforms": ["WE_CHAT", "SYMPHONY"],
+    "jpmEnterpriseAccount": "N654179",
+    "contacts": [{
+      "name": "Yichen_External_Account",
+      "clientIdentifier": "0123456",
+      "clientIdentifierType": "SPN",
+      "platforms": [
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["US Govt"],
+          "enterpriseAccount": ["N654179"],
+          "personalAccount": ["wm5iBDBgAAPOb8JLN8qFbyS3IOE8zKuA"]
+        },
+        {
+          "identifier": "WE_CHAT",
+          "productScope": ["EU Govt"],
+          "enterpriseAccount": ["N654179"],
+          "personalAccount": ["wm5iBDBgAAPOb8JLN8qFbyS3IOE8zKuA"]
+        }
+      ]
+    },
+      {
+        "name": "Anupam_External_Account",
+        "clientIdentifier": "9999999",
+        "clientIdentifierType": "SPN",
+        "platforms": [
+          {
+            "identifier": "WE_CHAT",
+            "productScope": ["US Govt"],
+            "enterpriseAccount": ["F241770"],
+            "personalAccount": ["wm5iBDBgAAGGB4tU88_fEDR6jCuIQEnQ"]
+          },
+          {
+            "identifier": "WE_CHAT",
+            "productScope": ["EU Govt"],
+            "enterpriseAccount": ["F241770"],
+            "personalAccount": ["wm5iBDBgAAGGB4tU88_fEDR6jCuIQEnQ"]
+          }
+        ]
+      }]
   }
 ]
